@@ -1,0 +1,77 @@
+header {
+    background-color: gold;   
+    color: rgb(58, 9, 121);
+    height: 100px;
+    margin: auto;
+    padding: 30px;
+    
+       
+}
+
+body{
+    background-color: rgb(160, 163, 159);
+    background-image: url("plano de fundo");
+}
+
+#main {
+    width: 0px;
+    margin: 0 auto;
+    display: inline;
+
+}
+
+img {width: 50px;}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0px;
+  
+        
+}
+
+.btn-green{
+    background:#e6f2ff 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(115, 115, 126);
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(162, 162, 177);
+    text-align: center;  
+    color: rgb(0, 0, 0)
+  }
+
+  p {
+    font-size: 30px;
+
+  }
+
+  .plano-de-fundo {width: 1000px;
+                   height: ;
+                   padding: 
+      
+  }

@@ -1,5 +1,106 @@
-h1 {
-    text-transform: none;
-    background-color:yellow;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#caixa-header{
+    background-color:#000033;
+    color: #ffffff;
+    height: 80px;
+}
+
+.menu{
+    
+    margin: 10px 0px;
+    padding: 0px;
+    height: 10vh;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    border:1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+#foto-de-perfil{
+    padding: 50px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+#caixa-main {
+    background-color: #b3d1ff;
+    height: 100vh;
+    text-align: center;
+    color: #47476b;
+    
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    background-color: #b3d1ff;
+    height: 80vh;
+    }
+
+#caixa2, .caixa1{
+    background-color: #000033;
+    color:#ffffff;
+    height: 300px;
+    width: 250px;
+    margin: 50px;
+    border-radius: 20px;
+  }
+
+  .projeto{
+      margin-top: 15px;
+    }
+  .projeto1{
+      margin-top: 15px;
+  }
+
+  .projeto2{
+      margin-top:15px
+  }
+  .mercado{
+      margin: 15px;
+  }
+
+  form input{
+      display: block;
+  }
+    
+
+#caixa-footer{
+    background-color: #000033;
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    color: #ffffff;
+    height:100px;
+    margin-top: 50px;    
+}
+
+.Redes{
+    margin: 5px 10px 30px;
+    height: 20px;    
+}
+
+ul{
+    list-style: none;
+}
+hr{
+    color: black;
+    background-color: black;
+    border-top: 1px dashed;
 }

@@ -7,39 +7,60 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>    
-    <div>
-        <header>
+    <div id="caixa-principal">
+        <header id="caixa-header">
            <h1>Full Stack</h1>
-            <section>
+            <section class="menu">
                 <nav>           
                     <ul>
-                        <li>About</li>
-                        <li>Projetos</li>
-                        <li>Contatos</li>
+                        <a href="index.html">Inicio</a>
+                        <a href="experiencia.html">Experiencia e Formação</a>
+                        <a href="#caixa2">Projetos</a>
+                        <a href="contato.html" >Contatos</a>                       
                     </ul>
                 </nav>
             </section>
         </header>
-   <main>
-       <div>
+   <main id="caixa-main">
+       <div class="sobre">
            <h2>Quem Sou Eu?</h2>
-             <p>Adoro a tecnologia, tentei fazer outras coisas da vida mas no final, ela me chamou de volta, agora focado em programação e acreditando que o futuro começa aqui.</p>             
-      </div>         
+            <img id="foto-de-perfil"src="/img/pp.jpg" alt="foto-de-perfil">           
+             <p>Adoro a tecnologia, tentei fazer outras coisas da vida mas no final, ela me chamou de volta,
+                  agora focado em programação e acreditando que o futuro começa aqui.
+             </p>             
+    </div>         
     
-     <div>
-        <section>    
-            <h3>Skills </h3>       
-        <hr>  
+     <div class="flex">
+        <section class="caixa1">    
+            <h3>Skills </h3> 
+            <hr>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li> 
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Jest<li>                
+            </ul>          
         </section>
-        <section>
+        <section id="caixa2">
             <h3>Projetos</h3>
         <hr>
+            <ul class="projeto">
+               <a href="Labenu.html">ProjetoLabenu</a>
+               <p class="projeto1">Nesse Projeto foi utilizado Html e CSS</p>
+            </ul>
+            <ul class=mercado>  
+               <a href="home.html">ProjetoMercadão</a>
+               <p class="projeto2" >Nesse Projeto foi utilizado Html e CSS</p>
+            </ul>
         </section>    
     </div>  
    
   </main>         
-  <footer>
-      <h4>Me mande uma mensamge xD</h4>
+  <footer id="caixa-footer">
+      <h4 class="Redes">Redes Sociais</h4>
+      <a href="https://github.com/future4code/Matheus-Novaes" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/matheus-novaes-a7a247200/" target="_blank">Linkedin</a>        
   </footer> 
     </div>
 </body>

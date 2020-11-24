@@ -1,64 +1,100 @@
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
+    color: #ffff;
 }
 
-#flex-box{
+/* CONTAINER 1 HEADER */
+
+.container{
     display: flex;
-    color:#ffff;
-    text-align: center;
-    align-items: center;
     align-content: center;
-    flex-direction: column;
+     
 }
-  
-.box1 {
+
+.header{
     background-color: green;
-    height: 40px   
-    
-    
-}
-
-.box2 {
-     background-color:yellow;
-     height: 40px;       
-}
-
-
-.box3 {
-    background-color: violet;
-    height: 600px;
-
-}
-
-.container3 {
-    background-color: turquoise;
-    height:250px;
-    width:25%;
-}
-
-.box5 {
-    background-color: tomato;
-    height: 125;
-    width: 25%;
-    
-}
-
-.box6 {
-    background-color: yellowgreen;
-    height: 125;
-    width: 25%;
-
-}
-
-.box7 {
     display: flex;
-    background-color: purple;
+    padding: 30px; 
+    width: 20%;  
+    text-align: center; 
+}
+
+.menu{
+    background-color: yellow;
+    display: flex;
+    padding: 30px;
+    width: 100%;
     text-align: center;
+    justify-content: center;
+}
+
+/* CONTAINER 2 */
+
+.box2{
+    background-color: rgb(204, 18, 142);
+    height: 600px; 
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    width: 25%;
-    height: 125;
+    text-align: center;  
+}
 
+/* CONTAINER 3    .container3 é responsavel por todo o container 3
+coluna é responsavel por image e extra*/
 
+.container3 {  display: flex;
+    justify-content: space-between;
+        
+
+}
+
+#content2{
+    background-color:rgb(43, 43, 177);
+    display: flex;
+    width: 60%;
+    height: 300px;          
+}
+
+#bro{
+    background-color:#ffff;
+    display: flex;
+    height: 300px;
+    width: 30%;
+    
+    
+    
+}
+
+#coluna {
+    display: flex;
+    flex-direction:column-reverse;
+
+      
+    
+    
+}
+
+#image{
+    background-color: tomato;
+    display: flex;
+    width: 300px;
+    height: 50%;
+    
+}
+
+#extra{
+    background-color: yellowgreen;
+    display: flex;
+    width: 300px;
+    height: 50%;
+
+}
+
+#footer{
+    background-color: purple;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }

@@ -1,0 +1,118 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+
+   
+
+
+.conteiner-main { 
+    height: 50px;
+    
+}
+
+
+#first-block {
+    background-color: rgb(253, 10, 10);
+    height: 100px;  
+    border: 1px solid black;
+}
+/* conteiner 2, carrega o conteiner 1,2,3 */
+
+.conteiner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+                     }
+
+
+/* comanda os conteinneris amarelos e os azuis */
+
+.blue-yellow-conteiner,.conteiner-branco{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+
+
+
+/* CONTEINER PRETO */
+
+.black2 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.blue-block {
+    background-color: rgb(0, 47, 255);
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: 50px 30px 0px 50px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        
+}
+
+.yellow-block {
+    background-color: yellow;
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: 50px 30px 0px 0px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.green-block {
+    background-color: green;
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: 50px 50px 0px 0px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 50vh;
+    width:  600px; 
+    border: 1px solid black;
+    margin: 50px 50px 50px 50px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Contem os conteiners 9 e 10 */
+.conteiner3 {
+ 
+}
+
+.white-block {
+    background-color: white;
+    display: flex;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    }

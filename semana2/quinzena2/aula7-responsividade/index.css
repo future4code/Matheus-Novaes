@@ -1,0 +1,165 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+
+   
+
+
+.conteiner-main { 
+    height: 50px;
+    
+}
+
+
+#first-block {
+    background-color: rgb(253, 10, 10);
+    height: 50px;  
+    border: 1px solid black;
+}
+/* conteiner 2, carrega o conteiner 1,2,3 */
+
+.conteiner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+                     }
+
+
+/* comanda os conteinneris amarelos e os azuis */
+
+.blue-yellow-conteiner,.conteiner-branco{
+    display: flex;
+      
+    
+}
+
+
+
+
+/* CONTEINER PRETO */
+
+.black2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+
+.blue-block {
+    background-color: rgb(0, 47, 255);
+    display: flex;
+    height: 100px;
+    width: 200px;
+    margin: 50px 30px 1px 50px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        
+}
+
+.yellow-block {
+    background-color: yellow;
+    display: flex;
+    height: 100px;
+    width: 200px;
+    margin: 50px 30px 0px 0px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.green-block {
+    background-color: green;
+    display: flex;
+    height: 100px;
+    width: 200px;
+    margin: 50px 50px 0px 0px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 300px;
+    width:  300px; 
+    border: 1px solid black;
+    margin: 50px 0px 50px 20px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Contem os conteiners 9 e 10 */
+
+
+.white-block,.as {
+    background-color: white;
+    display: flex;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+    }
+ 
+   
+    @media (max-width: 800px) and (min-width:375px){
+       
+        .conteiner2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .green-block {
+            background-color: green;
+            display: flex;
+            height: 100px;
+            width: 100vw;
+            margin: 50px 50px 0px 0px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .as {
+            background-color: white;
+            display: flex;
+            height: 100px;
+            width: 100vw;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0px 10px 10px 10px;
+            
+            }
+    
+     @media (max-width:375px){
+
+        .conteiner2 {
+            flex-direction: column;
+            display: flex;
+            
+        }
+
+                
+
+        
+        
+    }

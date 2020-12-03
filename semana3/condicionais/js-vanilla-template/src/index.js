@@ -99,20 +99,13 @@ switch(periodo){
 
 //Exercicio 7
 
-let genero = prompt("Escolha um genero de filme")
-let preco
-switch (genero) {
-  case "Ação":
-    preco = 17.60
-    break;
-  case "Aventura":
-    preco = 16.25
-    break;
-  case "Comedia":
-    preco = 15.30
-    break;
-  case "Fantasia":
-    preco = 14.00
-    break; 
-    
+const genero = prompt("Qual o gênero de filme que vocês vão assistir?")
+let preco = Number(prompt("Qual o preço do ingresso?"))
+
+if (genero === "fantasia" && preco < 15) {
+    console.log("Bom filme!")
+} else {
+    console.log("Escolha outro filme :(")
 }
+
+    
